@@ -1,8 +1,10 @@
 # swagger-ui-plugin-enum-names
 
+![image](https://user-images.githubusercontent.com/49056869/108408793-d6275800-7268-11eb-867e-c456586bfc5a.png)
+
 A plugin for Swagger UI to show `x-enum-varnames` / `x-enumNames` and `x-enum-descriptions`.
 
-`x-enum-varnames`/`x-enum-descriptions` are supported by [openapi-generator](https://github.com/OpenAPITools/openapi-generator) ([docs](https://github.com/OpenAPITools/openapi-generator/blob/master/docs/templating.md#enum)).
+`x-enum-varnames`/`x-enum-descriptions` are supported by [openapi-generator](https://github.com/OpenAPITools/openapi-generator) ([docs](https://github.com/OpenAPITools/openapi-generator/blob/master/docs/templating.md#enum)).  
 Also `x-enumNames` is supported by [NSwag](https://github.com/RicoSuter/NSwag) ([docs](https://github.com/RicoSuter/NJsonSchema/wiki/Enums)).
 
 ## Usage
