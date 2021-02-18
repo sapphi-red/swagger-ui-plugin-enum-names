@@ -1,0 +1,39 @@
+{
+  "name": "swagger-ui-plugin-enum-names",
+  "version": "1.0.0",
+  "description": "A plugin for Swagger UI to show x-enum-varnames / x-enumNames and x-enum-descriptions.",
+  "main": "dist/index.min.js",
+  "module": "dist/index.esm.min.js",
+  "unpkg": "dist/index.umd.min.js",
+  "jsdelivr": "dist/index.umd.min.js",
+  "scripts": {
+    "build": "bili"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sapphi-red/swagger-ui-plugin-enum-names.git"
+  },
+  "keywords": [
+    "swagger"
+  ],
+  "files": [
+    "dist"
+  ],
+  "author": "sapphi-red",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/sapphi-red/swagger-ui-plugin-enum-names/issues"
+  },
+  "homepage": "https://github.com/sapphi-red/swagger-ui-plugin-enum-names#readme",
+  "dependencies": {
+    "immutable": "^3.x.x",
+    "prop-types": "^15.7.2",
+    "react": "=15.7.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "bili": "^5.0.5",
+    "eslint": "^7.20.0",
+    "eslint-plugin-react": "^7.22.0"
+  }
+}

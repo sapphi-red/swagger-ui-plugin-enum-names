@@ -1,0 +1,8 @@
+.prop-enum .value {
+  color: #55a;
+}
+
+.prop-enum .name {
+  color: #6b6b6b;
+  font-style: italic;
+}
