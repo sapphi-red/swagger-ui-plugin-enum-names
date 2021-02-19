@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { is } from 'immutable'
+import Immutable from 'immutable'
 
 class ExtendedEnumModel extends React.Component {
   static contextTypes = {
@@ -14,7 +14,7 @@ class ExtendedEnumModel extends React.Component {
     const Markdown = getComponent("Markdown", true)
 
     const enumData = this.context?.enumData
-    const isValidData = enumData && enumData.enumArray && is(enumData.enumArray, value)
+    const isValidData = enumData && enumData.enumArray && Immutable.is(enumData.enumArray, value)
     const namesArray = isValidData && enumData.names ? enumData.names.toArray() : []
     const descsArray = isValidData && enumData.descs ? enumData.descs.toArray() : []
 
