@@ -1,6 +1,6 @@
 {
   "name": "swagger-ui-plugin-enum-names",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A plugin for Swagger UI to show x-enum-varnames / x-enumNames and x-enum-descriptions.",
   "main": "dist/index.min.js",
   "module": "dist/index.esm.min.js",
