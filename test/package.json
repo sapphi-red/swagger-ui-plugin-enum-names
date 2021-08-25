@@ -9,7 +9,7 @@
     "vite": "^2.5.1"
   },
   "dependencies": {
-    "swagger-ui": "^3.52.0",
+    "swagger-ui": "^4.0.0-beta.4",
     "swagger-ui-plugin-enum-names": "file:.."
   }
 }

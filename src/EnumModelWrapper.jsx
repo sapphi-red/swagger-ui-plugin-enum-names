@@ -1,11 +1,9 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import Immutable from 'immutable'
+import { EnumContext } from './PrimitiveModelWrapper'
 
 class ExtendedEnumModel extends React.Component {
-  static contextTypes = {
-    enumData: PropTypes.object
-  }
+  static contextType = EnumContext;
 
   render() {
     const { value, getComponent } = this.props
@@ -13,7 +11,7 @@ class ExtendedEnumModel extends React.Component {
     const ModelCollapse = getComponent('ModelCollapse')
     const Markdown = getComponent("Markdown", true)
 
-    const enumData = this.context?.enumData
+    const enumData = this.context
     const isValidData = enumData && enumData.enumArray && Immutable.is(enumData.enumArray, value)
     const namesArray = isValidData && enumData.names ? enumData.names.toArray() : []
     const descsArray = isValidData && enumData.descs ? enumData.descs.toArray() : []
