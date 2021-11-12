@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>test Swagger Viewer (unpkg)</title>
+
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/swagger-ui-dist/swagger-ui.css" />
+    <link rel="stylesheet" type="text/css" href="node_modules/swagger-ui-plugin-enum-names/dist/index.min.css" />
+
+    <script src="https://unpkg.com/swagger-ui-dist/swagger-ui-standalone-preset.js"></script>
+    <script src="https://unpkg.com/swagger-ui-dist/swagger-ui-bundle.js"></script>
+    <script src="node_modules/swagger-ui-plugin-enum-names/dist/index.umd.min.js"></script>
+
+    <script>
+      window.onload = () => {
+        SwaggerUIBundle({
+          url: '/spec.json',
+          dom_id: '#app',
+          deepLinking: true,
+          presets: [SwaggerUIBundle.presets.apis, SwaggerUIStandalonePreset],
+          plugins: [
+            SwaggerUIBundle.plugins.DownloadUrl,
+            EnumNamesPlugin.EnumNamesPlugin
+          ],
+          layout: 'StandaloneLayout'
+        })
+      }
+    </script>
+    <style>
+      html, body {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
