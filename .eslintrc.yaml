@@ -1,9 +1,0 @@
-parser: babel-eslint
-extends:
-  - eslint:recommended
-  - plugin:react/recommended
-rules:
-  no-unused-vars:
-    - error
-    - argsIgnorePattern: ^_
-  react/prop-types: 'off'
