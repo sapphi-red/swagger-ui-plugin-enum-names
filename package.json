@@ -2,15 +2,13 @@
   "name": "swagger-ui-plugin-enum-names",
   "version": "3.0.0",
   "description": "A plugin for Swagger UI to show x-enum-varnames / x-enumNames and x-enum-descriptions.",
-  "main": "./dist/swagger-ui-plugin-enum-names.js",
-  "module": "./dist/swagger-ui-plugin-enum-names.module.js",
-  "exports": "./dist/swagger-ui-plugin-enum-names.modern.js",
-  "unpkg": "./dist/swagger-ui-plugin-enum-names.umd.js",
-  "jsdelivr": "./dist/swagger-ui-plugin-enum-names.umd.js",
-  "source": "./src/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "unpkg": "dist/index.global.js",
+  "jsdelivr": "dist/index.global.js",
   "scripts": {
-    "dev": "microbundle watch",
-    "build": "microbundle",
+    "dev": "tsup --watch",
+    "build": "tsup",
     "lint": "eslint {src,test}/**/*.{js,jsx}"
   },
   "repository": {
@@ -38,6 +36,7 @@
     "@babel/eslint-parser": "^7.16.5",
     "eslint": "^8.5.0",
     "eslint-plugin-react": "^7.27.1",
-    "microbundle": "^0.14.2"
+    "postcss": "^8.4.5",
+    "tsup": "^5.11.6"
   }
 }

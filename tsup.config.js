@@ -7,6 +7,5 @@ module.exports = defineConfig((options) => ({
   format: ['cjs', 'esm', 'iife'],
   esbuildOptions(options, context) {
     options.globalName = 'EnumNamesPlugin'
-    options.external = ['immutable', 'react']
   }
 }))
