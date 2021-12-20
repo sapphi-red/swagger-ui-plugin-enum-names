@@ -1,9 +1,12 @@
 module.exports = {
-  parser: '@babel/eslint-parser',
   extends: [
     'eslint:recommended',
     'plugin:react/recommended'
   ],
+  parserOptions: {
+    ecmaVersion: 2022,
+    sourceType: 'module'
+  },
   env: {
     browser: true,
   },
