@@ -23,12 +23,12 @@ SwaggerUI({
   ]
 })
 ```
-And import `swagger-ui-plugin-enum-names/dist/index.min.css` in some way.
+And import `swagger-ui-plugin-enum-names/dist/index.css` in some way.
 
 ### With unpkg
 ```html
 <link rel="stylesheet" type="text/css" href="https://unpkg.com/swagger-ui-dist/swagger-ui.css" />
-<link rel="stylesheet" type="text/css" href="https://unpkg.com/swagger-ui-plugin-enum-names/dist/index.min.css" />
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/swagger-ui-plugin-enum-names/dist/index.css" />
 
 <script src="https://unpkg.com/swagger-ui-dist/swagger-ui-bundle.js"></script>
 <script src="https://unpkg.com/swagger-ui-plugin-enum-names"></script>
