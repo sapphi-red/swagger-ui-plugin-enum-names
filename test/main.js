@@ -3,7 +3,7 @@ import SwaggerUIStandalonePreset from 'swagger-ui/dist/swagger-ui-standalone-pre
 import { EnumNamesPlugin } from 'swagger-ui-plugin-enum-names'
 
 import 'swagger-ui/dist/swagger-ui.css'
-import 'swagger-ui-plugin-enum-names/dist/index.min.css'
+import 'swagger-ui-plugin-enum-names/dist/index.css'
 
 document.addEventListener('DOMContentLoaded', () => {
   SwaggerUI({
