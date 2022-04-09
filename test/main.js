@@ -1,5 +1,5 @@
 import SwaggerUI from 'swagger-ui'
-import SwaggerUIStandalonePreset from 'swagger-ui/dist/swagger-ui-standalone-preset'
+import { SwaggerUIStandalonePreset } from 'swagger-ui-dist'
 import { EnumNamesPlugin } from 'swagger-ui-plugin-enum-names'
 
 import 'swagger-ui/dist/swagger-ui.css'
