@@ -32,9 +32,9 @@
     "react": "=17.0.2"
   },
   "devDependencies": {
-    "eslint": "^8.13.0",
-    "eslint-plugin-react": "^7.29.4",
-    "postcss": "^8.4.12",
-    "tsup": "^5.12.4"
+    "eslint": "^8.25.0",
+    "eslint-plugin-react": "^7.31.10",
+    "postcss": "^8.4.17",
+    "tsup": "^6.2.3"
   }
 }
