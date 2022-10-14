@@ -1,8 +1,19 @@
-.prop-enum .value {
+.prop-enum .value,
+.enum-info-list > .enum-info > .value {
   color: #55a;
 }
 
-.prop-enum .name {
+.prop-enum .name,
+.enum-info-list > .enum-info > .name {
   color: #6b6b6b;
   font-style: italic;
+}
+
+.enum-info-list > .enum-info * {
+  font-family: monospace !important;
+}
+
+.enum-info-list > .enum-info > p,
+.enum-info-list > .enum-info > .renderedMarkdown > p {
+  margin: 0.5em auto;
 }

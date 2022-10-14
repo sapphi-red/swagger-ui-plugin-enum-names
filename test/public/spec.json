@@ -3,6 +3,15 @@
   "paths": {
     "/items": {
       "get": {
+        "parameters": [
+          {
+            "name": "type",
+            "in": "query",
+            "schema": {
+              "$ref": "#/components/schemas/ItemType"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "content": {
@@ -10,19 +19,33 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Items"
+                    "$ref": "#/components/schemas/Item"
                   }
                 }
               }
             }
           }
         }
+      },
+      "post": {
+        "requestBody": {
+          "content": {
+            "application/x-www-form-urlencoded": {
+              "schema": {
+                "$ref": "#/components/schemas/Item"
+              }
+            }
+          }
+        },
+        "responses": {
+          "204": {}
+        }
       }
     }
   },
   "components": {
     "schemas": {
-      "Items": {
+      "Item": {
         "type": "object",
         "properties": {
           "id": {
