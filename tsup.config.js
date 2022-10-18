@@ -6,6 +6,8 @@ module.exports = defineConfig((options) => {
     platform: "browser",
     target: "es2015",
     globalName: "EnumNamesPlugin",
+    jsxFactory: "system.React.createElement",
+    jsxFragment: "system.React.Fragment",
   })
 
   return ["cjs", "esm", "iife"].map((format) =>

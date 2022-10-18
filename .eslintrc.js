@@ -12,6 +12,7 @@ module.exports = {
   },
   rules: {
     'no-unused-vars': ['error', {argsIgnorePattern: '^_'}],
-    'react/prop-types': 'off'
+    'react/prop-types': 'off',
+    'react/react-in-jsx-scope': 'off'
   }
 }

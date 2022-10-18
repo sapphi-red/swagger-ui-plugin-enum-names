@@ -27,10 +27,6 @@
     "url": "https://github.com/sapphi-red/swagger-ui-plugin-enum-names/issues"
   },
   "homepage": "https://github.com/sapphi-red/swagger-ui-plugin-enum-names#readme",
-  "dependencies": {
-    "immutable": "^3.x.x",
-    "react": "=17.0.2"
-  },
   "devDependencies": {
     "eslint": "^8.25.0",
     "eslint-plugin-react": "^7.31.10",
