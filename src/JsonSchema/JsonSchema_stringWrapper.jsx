@@ -18,7 +18,7 @@ export const WrapJsonSchema_string = (Original, _system) => class JsonSchema_str
               <ul className="enum-info-list">
                 {
                   enumArray
-                    .zip(names, descs)
+                    .zip(...[names, descs].filter(a => a != null))
                     .map(([val, name, desc]) => <EnumInfo key={val} getComponent={getComponent} val={val} name={name} desc={desc} />)
                 }
               </ul>
