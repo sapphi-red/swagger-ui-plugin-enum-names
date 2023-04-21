@@ -28,9 +28,9 @@
   },
   "homepage": "https://github.com/sapphi-red/swagger-ui-plugin-enum-names#readme",
   "devDependencies": {
-    "eslint": "^8.25.0",
-    "eslint-plugin-react": "^7.31.10",
-    "postcss": "^8.4.17",
-    "tsup": "^6.2.3"
+    "eslint": "^8.38.0",
+    "eslint-plugin-react": "^7.32.2",
+    "postcss": "^8.4.23",
+    "tsup": "^6.7.0"
   }
 }
