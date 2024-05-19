@@ -10,8 +10,8 @@
     "vite": "^5.2.11"
   },
   "dependencies": {
-    "swagger-ui": "^4.18.2",
-    "swagger-ui-dist": "^4.18.2",
+    "swagger-ui": "^5.17.10",
+    "swagger-ui-dist": "^5.17.10",
     "swagger-ui-plugin-enum-names": "file:.."
   }
 }
