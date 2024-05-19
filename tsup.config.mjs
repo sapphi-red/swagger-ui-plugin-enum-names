@@ -1,6 +1,6 @@
-const { defineConfig } = require("tsup")
+import { defineConfig } from "tsup"
 
-module.exports = defineConfig((options) => {
+export default defineConfig((options) => {
   const common = defineConfig({
     entry: ["src/index.js"],
     platform: "browser",
