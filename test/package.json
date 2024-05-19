@@ -1,12 +1,13 @@
 {
   "name": "swagger-ui-plugin-enum-names-test",
+  "type": "module",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite"
   },
   "private": true,
   "devDependencies": {
-    "vite": "^4.3.1"
+    "vite": "^5.2.11"
   },
   "dependencies": {
     "swagger-ui": "^4.18.2",
