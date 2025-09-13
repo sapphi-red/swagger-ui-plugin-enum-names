@@ -32,5 +32,6 @@
     "eslint-plugin-react": "^7.34.1",
     "postcss": "^8.4.38",
     "tsup": "^8.0.2"
-  }
+  },
+  "packageManager": "pnpm@10.15.1"
 }

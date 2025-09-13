@@ -12,6 +12,6 @@
   "dependencies": {
     "swagger-ui": "^5.17.10",
     "swagger-ui-dist": "^5.17.10",
-    "swagger-ui-plugin-enum-names": "file:.."
+    "swagger-ui-plugin-enum-names": "workspace:*"
   }
 }
