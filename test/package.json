@@ -7,11 +7,11 @@
   },
   "private": true,
   "devDependencies": {
-    "vite": "^5.2.11"
+    "vite": "^7.1.5"
   },
   "dependencies": {
-    "swagger-ui": "^5.17.10",
-    "swagger-ui-dist": "^5.17.10",
+    "swagger-ui": "^5.29.0",
+    "swagger-ui-dist": "^5.29.0",
     "swagger-ui-plugin-enum-names": "workspace:*"
   }
 }
