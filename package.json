@@ -31,7 +31,8 @@
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.1",
     "postcss": "^8.4.38",
-    "tsup": "^8.0.2"
+    "tsup": "^8.0.2",
+    "typescript": "^5.9.2"
   },
   "packageManager": "pnpm@10.15.1"
 }
